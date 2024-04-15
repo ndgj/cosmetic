@@ -1,24 +1,39 @@
-# README
+# Cosmetic
+​
+## サイト概要
+### サイトテーマ
+自分に合った化粧品を見つけられるレビューサイト
+​
+### テーマを選んだ理由
+パーソナルカラーや顔タイプ、脂性肌、乾燥肌など細かく分類されている最近の美容について
+アプリで分かりやすく見れるといいなと思ったため。
+例えば、イエローベースの人に向いている化粧品が検索しただけで絞り込めると、化粧初心者
+だけでなく、どの層にとっても便利になると感じたため。
+私の実体験で、人気なスキンケア商品を使っていたら余計肌が荒れてしまい、自分の肌の分類
+に合った商品を使わなければいけないと知ってからこのようなアプリがあるといいなと思った。
+最近はメンズメイクなども流行っているため、メンズにおすすめの化粧品などもユーザー間で
+共有できるようにしたい。
+​
+### ターゲットユーザ
+化粧品に関する情報を求めている人
+自分と同じ肌質の意見を参考にしたい人
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+​
+### 主な利用シーン
+似ているカラーや用途の化粧品でどれを買えばいいのかわからない時
+パーソナルカラーや肌質に合った化粧品の情報を知りたい時
 
-Things you may want to cover:
+​
+## 設計書
+​
+## 開発環境
+- OS：Linux(CentOS)
+- 言語：HTML,CSS,JavaScript,Ruby,SQL
+- フレームワーク：Ruby on Rails
+- JSライブラリ：jQuery
+- IDE：Cloud9
+​
+## 使用素材
+現在検討中
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://docs.google.com/spreadsheets/d/1M4DXj4nEVIP7-YiYzF4qkqhwgOX0E7AW7cVvMLIelw4/edit#gid=454260661
