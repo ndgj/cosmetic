@@ -1,0 +1,26 @@
+ja:
+
+  activerecord:
+  # 全てのモデル記載
+    models:
+      user: ユーザー
+      admin: 管理者
+      post_images: 投稿
+      post_comments: コメント
+      
+    attributes:
+     # 各モデルのカラム名を記載
+      user:
+        nick_name: ユーザー名
+        first_name: 姓
+        last_name: 名
+        first_name_kana: セイ
+        last_name_kana: メイ
+        height: 身長
+        body_weight: 体重
+        introduction: 自己紹介
+        email: メールアドレス
+        password: パスワード
+      admin:
+        email: メールアドレス
+        password: パスワード

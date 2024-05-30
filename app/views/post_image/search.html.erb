@@ -1,0 +1,12 @@
+<h2>検索結果 "<%= @keyword %>"</h2>
+  <ul>
+    <% @post_image.each do |post_image| %>
+      <li>
+        <%= link_to post_image_path(post_image.id) do %>
+        <% if post_image.image.attached %>
+          <%= image_tag post_image.image.variant(gravity: :center, resize:"640x640", crop:"640x640+0+0") %>
+        <% end %>
+        <% end %>
+      </li>
+    <% end %>
+  </ul>
