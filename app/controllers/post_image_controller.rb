@@ -12,7 +12,7 @@ class PostImageController < ApplicationController
   end
   
   def index
-     @post_image = PostImage.page(params[:page])
+     @post_images = PostImage.all
   end
 
   def show

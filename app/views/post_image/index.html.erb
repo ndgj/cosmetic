@@ -1,7 +1,6 @@
-<% @post_image.each do |post_image| %>
+<% @post_images.each do |post_image| %>
   <div>
     <%= link_to post_image_path(post_image.id) do %> 
-    <%# post_image.images.each do |image| %>
     <%= image_tag post_image.get_image %>
   <% end %>
     <p>投稿ユーザー画像：<%= image_tag post_image.user.get_profile_image(100,100) %></p>
