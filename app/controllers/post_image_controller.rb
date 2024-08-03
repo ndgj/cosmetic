@@ -42,4 +42,12 @@ class PostImageController < ApplicationController
   def post_image_params
     params.require(:post_image).permit(:title, :image, :body)
   end
+  
+  def is_matching_login_user
+    post_image = PostImage.find(params[:id])
+    user = post_image.user
+    unless user.id == current_user.id
+      redirect_to post_image_path
+    end
+  end
 end
